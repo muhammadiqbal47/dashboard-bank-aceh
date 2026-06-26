@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Produk Digital Bank Aceh",
+  "description": "Aplikasi monitoring pencapaian target produk digital Bank Aceh dengan fitur autentikasi, grafik interaktif, import excel, ekspor PDF/Excel, dan kelola hak akses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
