@@ -172,7 +172,7 @@ export default function App() {
             {/* Logo Group */}
             <div className="flex items-center gap-2">
               <img
-                src="/logo-bank-aceh.png"
+                src="/logo-bank-aceh.png?v=2"
                 className="w-10 h-10 object-contain bg-white p-1 rounded-lg shrink-0 select-none shadow-sm"
                 referrerPolicy="no-referrer"
                 alt="Logo Bank Aceh"

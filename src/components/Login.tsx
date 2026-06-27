@@ -54,7 +54,7 @@ export default function Login({ onLoginSuccess }: LoginProps) {
       >
         <div className="flex justify-center">
           <img
-            src="/logo-bank-aceh.png" 
+            src="/logo-bank-aceh.png?v=2" 
             className="w-20 h-20 object-contain bg-white p-2 rounded-2xl border border-emerald-100 shadow-sm"
             referrerPolicy="no-referrer"
             alt="Logo Bank Aceh"
