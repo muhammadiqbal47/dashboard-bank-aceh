@@ -52,8 +52,13 @@ export default function Login({ onLoginSuccess }: LoginProps) {
         transition={{ duration: 0.5 }}
         className="sm:mx-auto sm:w-full sm:max-w-md"
       >
-        <div className="flex justify-center text-emerald-700">
-          <Landmark id="bank-icon" className="w-16 h-16 text-emerald-600 bg-emerald-50 p-2.5 rounded-2xl border border-emerald-100 shadow-sm" />
+        <div className="flex justify-center">
+          <img
+            src="/logo-bank-aceh.png" 
+            className="w-20 h-20 object-contain bg-white p-2 rounded-2xl border border-emerald-100 shadow-sm"
+            referrerPolicy="no-referrer"
+            alt="Logo Bank Aceh"
+            />
         </div>
         <h2 id="login-title" className="mt-6 text-center text-3xl font-extrabold tracking-tight text-slate-800">
           Bank Aceh
