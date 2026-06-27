@@ -58,7 +58,7 @@ export default function Login({ onLoginSuccess }: LoginProps) {
             className="w-20 h-20 object-contain bg-white p-2 rounded-2xl border border-emerald-100 shadow-sm"
             referrerPolicy="no-referrer"
             alt="Logo Bank Aceh"
-            />
+          />
         </div>
         <h2 id="login-title" className="mt-6 text-center text-3xl font-extrabold tracking-tight text-slate-800">
           Bank Aceh
