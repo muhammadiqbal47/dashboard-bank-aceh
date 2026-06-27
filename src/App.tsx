@@ -171,12 +171,19 @@ export default function App() {
             
             {/* Logo Group */}
             <div className="flex items-center gap-2">
-              <Landmark className="w-8 h-8 text-amber-400 shrink-0" />
-              <div>
-                <span className="font-extrabold text-lg tracking-tight block">BANK ACEH</span>
-                <span className="text-[9px] uppercase tracking-wider text-emerald-100 font-semibold -mt-1 block">Digital Performance Portal</span>
+              <div className="flex items-center gap-2">
+                <img
+                  src="/logo-bank-aceh.png"
+                  className="w-10 h-10 object-contain
+              shrink-0"
+                  referrerPolicy="no-referrer"
+                  alt="Logo Bank Aceh"
+                  />
+                  <div>
+                    <span className="font-extrabold text-lg tracking-tight block text-white">BANK ACEH</span>
+                    <span className="text-[9px] uppercase tracking-wider text-emerald-100 font-semibold -mt-1 block">Digital Performance Portal</span>
+                  </div>
               </div>
-            </div>
 
             {/* Desktop Navigation Links */}
             <nav id="desktop-nav" className="hidden md:flex space-x-2">
